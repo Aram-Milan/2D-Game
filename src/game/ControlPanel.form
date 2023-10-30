@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="game.ControlPanel">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="27" y="20" width="628" height="59"/>
+    </constraints>
+    <properties>
+      <background color="-66049"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f19c5" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="0" column="4" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="6"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-917501"/>
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <text value="EXIT"/>
+        </properties>
+      </component>
+      <component id="943e" class="javax.swing.JButton" binding="pauseButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="6"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12193194"/>
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value=" PAUSE "/>
+        </properties>
+      </component>
+      <component id="1f019" class="javax.swing.JButton" binding="resumeButton">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="6"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-889360"/>
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <text value="RESUME"/>
+        </properties>
+      </component>
+      <component id="ae507" class="javax.swing.JButton" binding="restartGameButton">
+        <constraints>
+          <grid row="0" column="3" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="6"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8073486"/>
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value="RESTART GAME"/>
+        </properties>
+      </component>
+      <component id="c8ab9" class="javax.swing.JButton" binding="hintsButton">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="3" height="6"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3644099"/>
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <text value=" HINTS "/>
+        </properties>
+      </component>
+      <component id="510e8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="157" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <doubleBuffered value="false"/>
+          <font name="A Yasamin" size="14" style="1"/>
+          <text value="            OVERWATCH"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
